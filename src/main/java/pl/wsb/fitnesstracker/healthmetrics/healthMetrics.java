@@ -44,8 +44,4 @@ public class healthMetrics {
         this.height = height;
         this.heartRate = heartRate;
     }
-
-    public void assignUser(User user) {
-        this.user = user;
-    }
 }
