@@ -26,7 +26,7 @@ public class healthMetrics {
     @JoinColumn(name = "user_id", nullable = false)
     private User user;
 
-    @Column(name = "local_date", nullable = false)
+    @Column(name = "date", nullable = false)
     private LocalDate date;
 
     @Column(name = "weight", nullable = false)
