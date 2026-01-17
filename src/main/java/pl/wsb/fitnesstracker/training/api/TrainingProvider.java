@@ -1,6 +1,7 @@
 package pl.wsb.fitnesstracker.training.api;
 
 import java.util.Optional;
+import java.util.List;
 
 public interface TrainingProvider {
 
@@ -12,5 +13,5 @@ public interface TrainingProvider {
      * @return An {@link Optional} containing the located Training, or {@link Optional#empty()} if not found
      */
     Optional<Training> getTraining(Long trainingId);
-
+    List<Training> getAllTrainingsForUser(Long userId);
 }
